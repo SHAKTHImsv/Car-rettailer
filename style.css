@@ -259,7 +259,7 @@ header{
 .about-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin-top: 4rem;
+    margin-top: 3.5rem;
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
@@ -447,41 +447,38 @@ header{
         padding: 1rem;
     }
 }
-@media (max-width: 568px) {
-    .copyright {
+@media (max-width:568px){
+    .copyright{
         flex-direction: column;
     }
-    .newsletter .box {
+    .newsletter .box{
         width: 284px;
     }
-    .form-container {
+    .form-container{
         padding-top: 2rem;
-    }
-    .header-btn .sign-in {
-        padding: 5px 10px; /* Decreased height */
-        font-size: 14px; /* Optional: Adjust font size if needed */
-        font-weight: 400; /* Maintain font weight */
     }
 }
 
-@media (max-width: 350px) {
-    header {
+@media (max-width:350px){
+    header{
         padding: 4px 14px;
     }
-    logo img {
+    logo img{
         width: 30px;
     }
-    section {
+    section{
         padding: 50px 14px;
     }
-    .header-btn .sign-in {
-        padding: 5px 8px; /* Further decrease for extra small devices */
-        font-size: 12px; /* Adjust font size if necessary */
+    .header-btn .sign-in{
+        padding: 7px 10px;
+        font-size: 14px;
+        font-weight: 400;
     }
-    .text h1 {
+    .text h1{
         font-size: 2rem;
     }
-    .services-container {
-        grid-template-columns: repeat(auto-fit, minmax(254px, auto));
+  
+    .services-container{
+        grid-template-columns: repeat(auto-fit,minmax(254px,auto));
     }
 }
